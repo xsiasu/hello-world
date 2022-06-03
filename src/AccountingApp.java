@@ -5,9 +5,9 @@ public class AccountingApp {
         double vatRate = 0.1;
         double vat = valueOfSupply * vatRate;
         double total = valueOfSupply+vat;
-        double expanseRate = 0.3;
-        double expanse  = valueOfSupply * expanseRate;
-        double income = valueOfSupply - expanse;
+        double expenseRate = 0.3;
+        double expense  = valueOfSupply * expenseRate;
+        double income = valueOfSupply - expense;
         double dividend1;
         double dividend2;
         double dividend3;
@@ -30,7 +30,7 @@ public class AccountingApp {
         //TAX
         System.out.println("value added tax:" + vat );
         //비용
-        System.out.println("expanse rate:" + expanse);
+        System.out.println("expanse rate:" + expense);
         //income
         System.out.println("income:" + income );
         // 배당

@@ -1,7 +1,6 @@
 public class AccountingIfApp {
     public static void main(String[] args) {
-
-        double valueOfSupply = Double.parseDouble(args[0]);
+        double valueOfSupply = 10000.0;
         double vatRate = 0.1;
         double vat = valueOfSupply * vatRate;
         double total = valueOfSupply+vat;
